@@ -1,5 +1,7 @@
 body {
     font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -26,6 +28,8 @@ button {
     color: #D9D8DE;
     background-color: #27452B;
     font-size: 18px;
+    display: flex;
+
 }
 
 .logo {
@@ -33,11 +37,19 @@ button {
     font-weight: 900;
 }
 
+.links { 
+    display: flex;
+}
+
 .one {
     color: #C0BFC9;
     background-color: #27452B;
     font-size: 18px;
+    display: flex;
+    justify-content: space-around;
 }
+
+
 
 .one button  {
     color: #D9D8DE;
@@ -48,6 +60,7 @@ button {
 .one img {
     border: 4px solid #4B8653;
     border-radius: 25px;
+    height: 256px;
 }
 
 .one .head-text {
@@ -60,12 +73,18 @@ button {
     color: #271A2E;
     background-color: #C3C9C0;
     font-size: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
     color: #271A2E;
     font-size: 40px;
     font-weight: 900;
+}
+
+.two .container {
+    display: flex;
 }
 
 .info img {
@@ -77,6 +96,8 @@ button {
     color: #271A2E;
     background-color: #AFA7B4; /* #ACB4A7 */
     font-size: 36px;
+    display: flex;
+    flex-direction: column;
 }
 
 .three .text {
@@ -86,6 +107,8 @@ button {
 
 .four {
     background-color: #C3C9C0;
+    display: flex;
+
 }
 
 .modal { 
@@ -93,6 +116,7 @@ button {
     background-color: #4B8653;
     border-radius: 8px;
     font-size: 18px;
+    display: flex;
 }
 
 .modal .head-text {
