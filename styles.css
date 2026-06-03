@@ -58,6 +58,7 @@ button {
 
 .two {
     background-color: #C3C9C0;
+    font-size: 24px;
 }
 
 .title {
@@ -65,9 +66,13 @@ button {
     font-weight: 900;
 }
 
+.info img {
+    border: 4px solid #4B8653;
+    border-radius: 25px;
+}
+
 .three {
     background-color: #AFA7B4; /* #ACB4A7 */
-    font-size: 18px;
 }
 
 .four {
