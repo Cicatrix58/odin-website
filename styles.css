@@ -13,6 +13,10 @@ a {
     color: #BFC9C0;
 }
 
+button {
+    cursor: url('./images/mjölnir.png'), auto;
+}
+
 .header { 
     color: #BFC9C0;
     background-color: #27452B;
@@ -21,6 +25,12 @@ a {
 .one {
     color: #BFC9C0 ;
     background-color: #27452B;
+}
+
+.one button  {
+    color: ;
+    background-color: #4B8653;
+    border-radius: ;
 }
 
 .footer {
