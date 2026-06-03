@@ -57,11 +57,13 @@ button {
 }
 
 .two {
+    color: #271A2E;
     background-color: #C3C9C0;
     font-size: 24px;
 }
 
 .title {
+    color: #271A2E;
     font-size: 40px;
     font-weight: 900;
 }
@@ -72,6 +74,7 @@ button {
 }
 
 .three {
+    color: #271A2E;
     background-color: #AFA7B4; /* #ACB4A7 */
     font-size: 36px;
 }
@@ -83,6 +86,26 @@ button {
 
 .four {
     background-color: #C3C9C0;
+}
+
+.modal { 
+    color: #C0BFC9;
+    background-color: #4B8653;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.modal .head-text {
+    color: #D9D8DE;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.modal button {
+    color: #D9D8DE;
+    background-color: #4B8653;
+    border: 2px solid #D9D8DE;
+
 }
 
 .footer {
