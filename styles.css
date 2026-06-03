@@ -1,0 +1,29 @@
+body {
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a { 
+    text-decoration: none;
+    color: #BFC9C0;
+}
+
+.header { 
+    color: #BFC9C0;
+    background-color: #27452B;
+}
+
+.one {
+    color: #BFC9C0 ;
+    background-color: #27452B;
+}
+
+.footer {
+    color: #BFC9C0;
+    background-color: #27452B;
+}
