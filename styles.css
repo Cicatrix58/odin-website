@@ -9,28 +9,38 @@ ul {
 }
 
 a { 
+    cursor: url('./images/mjölnir.png'), auto;
     text-decoration: none;
-    color: #BFC9C0;
+    color: #D8DED9;
 }
 
 button {
     cursor: url('./images/mjölnir.png'), auto; /*inspired by NoPunIntended69 on Pixilart*/
     border-radius: 8px;
     padding: 4px 16px;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    font-size: 16px;
 }
 
 .header { 
-    color: #BFC9C0;
+    color: #D8DED9;
     background-color: #27452B;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .one {
     color: #BFC9C0 ;
     background-color: #27452B;
+    font-size: 18px;
 }
 
 .one button  {
-    color: #BFC9C0;
+    color: #D8DED9;
     background-color: #4B8653;
     border: 1px #4B8653;
 }
@@ -40,8 +50,23 @@ button {
     border-radius: 25px;
 }
 
-.head-text {
+.one .head-text {
     font-size: 48px;
+    font-weight: 900;
+    color: #D8DED9;
+}
+
+.two {
+    background-color: #C0BFC9;
+}
+
+.three {
+    
+    background-color: #ACB4A7;
+}
+
+.four {
+    background-color: #C0BFC9;
 }
 
 .footer {
