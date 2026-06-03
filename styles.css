@@ -14,7 +14,9 @@ a {
 }
 
 button {
-    cursor: url('./images/mjölnir.png'), auto;
+    cursor: url('./images/mjölnir.png'), auto; /*inspired by NoPunIntended69 on Pixilart*/
+    border-radius: 8px;
+    padding: 4px 16px;
 }
 
 .header { 
@@ -28,9 +30,18 @@ button {
 }
 
 .one button  {
-    color: ;
+    color: #BFC9C0;
     background-color: #4B8653;
-    border-radius: ;
+    border: 1px #4B8653;
+}
+
+.one img {
+    border: 4px solid #4B8653;
+    border-radius: 25px;
+}
+
+.head-text {
+    font-size: 48px;
 }
 
 .footer {
