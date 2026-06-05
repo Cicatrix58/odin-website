@@ -170,7 +170,7 @@ button {
     display: flex;
     padding: 0px 200px;
     height: 272px;
-
+    align-items: center;
 }
 
 .modal { 
@@ -178,7 +178,8 @@ button {
     background-color: #4B8653;
     border-radius: 8px;
     font-size: 18px;
-    display: flex;
+    
+    height: 200px;
 }
 
 .modal .head-text {
@@ -187,11 +188,11 @@ button {
     font-weight: 900;
 }
 
-.modal button {
+.sign-up {
     color: #D9D8DE;
     background-color: #4B8653;
     border: 2px solid #D9D8DE;
-
+    
 }
 
 .footer {
