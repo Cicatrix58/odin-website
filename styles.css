@@ -24,12 +24,21 @@ button {
     font-size: 16px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 .header { 
     color: #D9D8DE;
     background-color: #27452B;
     font-size: 18px;
+    height: 48px;
     display: flex;
-
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
 }
 
 .logo {
@@ -47,6 +56,8 @@ button {
     font-size: 18px;
     display: flex;
     justify-content: space-around;
+    padding: 0px 200px;
+    height: 320px;
 }
 
 
@@ -75,6 +86,8 @@ button {
     font-size: 24px;
     display: flex;
     flex-direction: column;
+    padding: 0px 200px;
+    height: 368px;
 }
 
 .title {
@@ -98,6 +111,8 @@ button {
     font-size: 36px;
     display: flex;
     flex-direction: column;
+    padding: 0px 200px;
+    height: 320px;
 }
 
 .three .text {
@@ -108,6 +123,8 @@ button {
 .four {
     background-color: #C3C9C0;
     display: flex;
+    padding: 0px 200px;
+    height: 272px;
 
 }
 
@@ -135,4 +152,9 @@ button {
 .footer {
     color: #BFC9C0;
     background-color: #27452B;
+    display: flex;
+    height: 64px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
 }
