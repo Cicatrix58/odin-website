@@ -112,7 +112,7 @@ button {
 
 .two {
     color: #271A2E;
-    background-color: #D1E5D4;
+    background-color: #B4D5B8;
     font-size: 24px;
     display: flex;
     flex-direction: column;
@@ -178,14 +178,28 @@ button {
     background-color: #4B8653;
     border-radius: 8px;
     font-size: 18px;
+    display: flex;
+    height: 148px;
+    align-items: center;
+    width: 848px;
+    justify-content: space-between;
+    padding: 0px 48px;
     
-    height: 200px;
+}
+
+.modal .info {
+    display: flex;
+    flex-flow: row wrap;
+    width: 640px;
+    
 }
 
 .modal .head-text {
     color: #D9D8DE;
     font-size: 24px;
     font-weight: 900;
+    
+    
 }
 
 .sign-up {
