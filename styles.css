@@ -156,6 +156,8 @@ button {
     flex-direction: column;
     padding: 0px 200px;
     height: 320px;
+    justify-content: center;
+    align-items: center;
 }
 
 .three .text {
