@@ -124,10 +124,23 @@ button {
     color: #271A2E;
     font-size: 40px;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
 }
 
 .two .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info img {
